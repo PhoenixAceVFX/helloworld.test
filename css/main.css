@@ -1,0 +1,301 @@
+/*--------------------------------------------------
+	GUSSI.WEBSITE / GIPERFAST.TK / LEGENDWARE.PW
+
+	All rights reserved on a pure word, if you want
+	to fill my face for my code, then write here
+	"https://vk.com/giperfast" I look forward to 
+	your kind words in my personal messages.
+		I love and kiss everyone ÃƒÂ¢Ã¢â€žÂ¢Ã‚Â¥
+	
+	GUSSI.WEBSITE / GIPERFAST.TK / LEGENDWARE.PW
+--------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+::-webkit-scrollbar {
+    width: 7px;
+    background: transparent;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    border-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #222044;
+}
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none !important;
+}
+::selection {
+    background: #0c00b6;
+}
+::-moz-selection {
+    background: #00b6b6;
+}
+::-webkit-selection {
+    background: #00b6b6;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+	scroll-behavior: smooth;
+}
+body {
+	overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, #222044 0%, #222044 100%);
+    position: relative;
+	overflow-x: hidden;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+}
+a {
+    text-decoration: none;
+	color: #000;
+}
+ul li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+}
+#release-v4 {
+	background-color: #000000;
+	position: relative;
+    width: 100vw;
+    height: 100vh;
+	z-index: 5;
+}
+#footer {
+    position: relative;
+    padding: 40px 0;
+    z-index: 7;
+    background: #0011ff;
+    text-align: center;
+    letter-spacing: 1.3px;
+    font-weight: 500;
+}
+.copyright {
+    font-size: 0px;
+}
+@media screen and (max-width: 1280px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 1080px) {
+	.year.year1, .year.year2{
+		font-size: 60px !important;
+	}
+	.new-year{
+		font-size: 13px !important;
+	}
+	/*.Forum-btn{
+		top: 65% !important;
+	}*/
+}
+@media screen and (max-width: 960px) {
+    section {
+        padding: 40px 0 !important;
+    }
+    section .content {
+        padding-top: 40px !important;
+    }
+	.year.year1, .year.year2{
+		font-size: 60px !important;
+	}
+}
+@media screen and (max-width: 600px) {
+	.year.year1, .year.year2{
+		font-size: 30px !important;
+	}
+	.new-year{
+		font-size: 10px !important;
+	}
+	/*.Forum-btn{
+		top: 60% !important;
+	}*/
+	.copyright {
+		font-size: 9px !important;
+	}
+	span#Update-info{
+		font-size: 7px !important;
+	}
+}
+@media screen and (max-width: 320px) {
+	.year.year1, .year.year2{
+		font-size: 20px !important;
+	}
+}
+.holder {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+}
+.new-year {
+  font-family: 'Major Mono Display', monospace;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  transition: all .3s;
+}
+.year {
+  position: relative;
+  left: 50%;
+  display: table;
+  font-size: 6em;
+  transform: translateX(-50%);
+}
+.year2 {
+  transform: translateX(-50%) rotateX(180deg);
+  opacity: 0.2;
+}
+.digit {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  opacity: 0;
+}
+.controls {
+  margin-top: 30px;
+}
+.control {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 0.8em;
+  border-left: 1px solid #333333;
+  opacity: 0;
+  position: relative;
+  top: 100px;
+}
+.control:first-child {
+  border-left: none;
+}
+.year.year1,.year.year2{
+	font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+	font-size: 90px;
+	transition: all .3s;
+}
+canvas{
+	position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+#Three:after{
+	content: '';
+    width: 150vw;
+    left: -50vw;
+    height: 14vh;
+    position: absolute;
+    background-color: #222044;
+    bottom: -65px;
+    filter: blur(28px);
+}
+.control.seconds:after{
+	content: '*';
+	cursor: pointer;
+    position: absolute;
+    margin: -7px -28px -31px 0px;
+}
+#release-v4>a{
+	position: absolute;
+    z-index: 5;
+    color: white;
+	left: 50%;
+    bottom: 40px;
+    transform: translateX(-50%) translateY(-50%) scale(1.5);
+	animation: opacity 3s ease;
+	transition: all 0.3s;
+}
+
+@keyframes opacity {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+span#Update-info{
+	font-size: 10px;
+	transition: all .3s;
+}
+
+
+#release-v4>a>span{
+	position: relative;
+	color: #fff;
+	animation: shake  2s infinite ease-in-out;
+	top: -6px;
+}
+@keyframes shake {
+	from {top: -6px;}
+	50% {top: 3px;}
+	to {top: -6px;}
+}
+
+.Forum-btn{
+	position: absolute;
+    width: 70px;
+    height: 21px;
+	left: 50%;
+    top: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    line-height: 1.5;
+	z-index: 1;
+	cursor: pointer;
+	animation: opacity 3s ease;
+	transition: all 0.3s;
+}
+.Forum-btn>a{
+	color: white;
+	padding: 2px 8px 3px 8px;
+}
+.Forum-btn:after{
+	content: '';
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    background-color: white;
+    top: 17px;
+    left: 35px;
+	transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.Forum-btn:hover:after{
+    width: 54px;
+    left: 8px;
+}
